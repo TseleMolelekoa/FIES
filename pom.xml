@@ -12,9 +12,9 @@
   <name>Fire Equipment Inspection System</name>
 
   <properties>
-    <maven.compiler.source>17</maven.compiler.source>
-    <maven.compiler.target>17</maven.compiler.target>
-    <maven.compiler.release>17</maven.compiler.release>
+    <maven.compiler.source>24</maven.compiler.source>
+    <maven.compiler.target>24</maven.compiler.target>
+    <maven.compiler.release>24</maven.compiler.release>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <ikonli.version>12.3.1</ikonli.version>
   </properties>
@@ -100,6 +100,20 @@
             <goals><goal>single</goal></goals>
           </execution>
         </executions>
+      </plugin>
+
+      <!-- Create executable JAR -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.3.0</version>
+        <configuration>
+          <archive>
+            <manifest>
+              <mainClass>feis.FeisApp</mainClass>
+            </manifest>
+          </archive>
+        </configuration>
       </plugin>
 
     </plugins>
