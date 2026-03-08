@@ -1,4 +1,5 @@
 feis\FirstAidPanel.class
+feis\QRScannerDialog$6.class
 feis\DelugePanel.class
 feis\HoseReelPanel.class
 feis\QRScannerDialog$1.class
@@ -6,9 +7,12 @@ feis\RecordsPanel$1.class
 feis\Icons.class
 feis\ExtinguisherPanel.class
 feis\QRCodeGenerator.class
+feis\QRScannerDialog$5.class
 feis\UI.class
+feis\QRScannerDialog$4.class
 feis\UI$FeisButton$1.class
 feis\MainFrame.class
+feis\QRScannerDialog$3.class
 feis\UI$1.class
 feis\UI$QRButton$1.class
 feis\UI$FeisButton.class
